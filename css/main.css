@@ -1194,7 +1194,6 @@ img {
 .circle {
   border-radius: 50%;
   overflow: hidden;
-  max-height: 95%;
 }
 
 @media (min-width: 768px) {
@@ -1265,9 +1264,6 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   font-size: 16px;
   margin-top: 0;
 }
@@ -1283,10 +1279,11 @@ img {
   margin-top: 20px;
   max-width: none;
   line-height: 1.7;
+  white-space: nowrap;
 }
 @media (min-width: 992px) {
-  .topManagers-circle .topManagers-person {
-    width: 185px;
+  .topManagers-circle .topManagers-person + .topManagers-person {
+    margin-left: 20px;
   }
 }
 
