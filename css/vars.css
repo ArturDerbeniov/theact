@@ -1,0 +1,74 @@
+/* 
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+*/
+:root {
+	scroll-behavior: auto;	
+
+	--web-black: #0f0000;
+	--black: #000;
+	--white: #fff;	
+	--c333: #333;
+	--c444: #444;
+	--gray: #C5C7C7;
+	--grayLight: #F6F6F6;
+	--grayDark: #585959;
+	--inputBord: transparent;
+	--inputBordActive: #D8E4E4;
+	--inputBordActiveOnDark: rgba(255,255,255,.15);
+	--cHover: #675E5E;
+
+	--ff-golos: 'golos-ui_vf';
+	--ff-golos-m: 'golos-ui_medium';
+	--ff-golos-b: 'golos-ui_bold';
+	--ff-ubuntu: 'Ubuntu', sans-serif;
+	--ff-noto: 'Noto Sans', sans-serif;
+	--ff-inter: 'Inter', sans-serif;
+	
+	--ff-title: var(--ff-golos);
+	--ff-base: var(--ff-golos);
+	--bs-font-sans-serif: var(--ff-base_r);
+
+	--fw-400: 400;
+	--fw-500: var(--ff-golos-m);
+	--fw-700: var(--ff-golos-b);
+
+	--fs-base_mob: 16px;
+	--fs-base_tabl: 18px;
+	--fs-base_desk: 18px;
+
+	--fc-base: var(--black);
+	--fc-title: var(--black);
+
+	--bgc-base: var(--white);
+
+
+	--headerMainH: 77;
+	--headerMainH_tabl: 77;
+	--headerMainH_mob: 41;
+
+	--bodyInnerSpace: 0;
+	--bodyInnerSpace_tabl: 0;
+	--bodyInnerSpace_mob: 0;
+
+	--contentWmax: 1250px;
+	--siteWmax: 1400px;
+	--gutterGlobal: 15px;
+	
+	--invalid: #FF3A2F;
+	--valid: #529b51;
+
+	--base: calc(1vw + 1vh);
+
+	--b65: calc(var(--base) * 6.5);
+	--b5: calc(var(--base) * 5);
+	--b33: calc(var(--base) * 3.5);
+	--b28: calc(var(--base) * 2.8);
+	--b16: calc(var(--base) * 1.6);
+
+	--sidedMob: calc(var(--base) * .85);
+}
