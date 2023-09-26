@@ -723,7 +723,6 @@ body.menuMobileActive .theme-black .headerMain-menu a:last-child::after {
   height: auto;
 }
 .container-fluid-siteWidth .videoContainer-wrapper {
-  background-color: pink;
   min-height: 250px;
 }
 @media (min-width: 768px) {
@@ -1625,7 +1624,7 @@ img {
 .container-overlay-cnt .h1 {
   margin-top: calc(var(--base) * 1.5);
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .container-overlay-cnt .btns {
     margin-bottom: 64px;
     margin-left: 32px;
@@ -1636,7 +1635,7 @@ img {
     max-width: var(--contentWmax);
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .container-overlay {
     position: absolute;
   }
