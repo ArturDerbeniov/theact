@@ -2383,6 +2383,9 @@ textarea {
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   .videoContainer-flowPage .container-overlay {
     position: absolute;
